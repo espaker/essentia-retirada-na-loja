@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Config/etc/config.xsd">
+    <default>
+        <carriers>
+            <retiradaloja>
+                <active>1</active>
+                <model>Espaker\RetiradaNaLoja\Model\Carrier\Retirada</model>
+                <title>Retirada na Loja</title>
+                <name>Retirada na Loja</name>
+                <price>0.00</price>
+                <handling_type>F</handling_type>
+                <specificerrmsg>Este método de entrega não está disponível.</specificerrmsg>
+                <sallowspecific>0</sallowspecific>
+                <showmethod>1</showmethod>
+                <sort_order>1</sort_order>
+            </retiradaloja>
+        </carriers>
+    </default>
+</config>

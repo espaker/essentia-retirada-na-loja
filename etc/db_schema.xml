@@ -1,0 +1,8 @@
+<!-- app/code/Espaker/RetiradaNaLoja/etc/db_schema.xml -->
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/etc/schema.xsd">
+    <table name="sales_order_grid">
+        <column xsi:type="boolean" name="retirada_na_loja" nullable="false" default="false"
+                comment="Indica se o pedido tem retirada na loja"/>
+    </table>
+</schema>
