@@ -35,8 +35,6 @@ php bin/magento cache:flush
 | `sales_order_grid` | `retirada_na_loja`    | SMALLINT | Flag de pedido com retirada (0/1)  | `AddRetiradaNaLojaToSalesOrderGrid` |
 
 ### Relacionamentos 
-<!-- Mermaid Support -->
-<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
 ```mermaid
 flowchart LR
     sales_order -->|entity_id| sales_order_grid
