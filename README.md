@@ -25,3 +25,8 @@ php bin/magento module:enable Espaker_RetiradaNaLoja
 php bin/magento setup:upgrade
 php bin/magento cache:clean
 php bin/magento cache:flush
+
+### Estrutura do Banco de Dados
+| Tabela             | Coluna Adicionada     | Tipo     | Descrição                          | Patch Responsável |
+|--------------------|-----------------------|----------|------------------------------------|------------------|
+| `sales_order_grid` | `retirada_na_loja`    | SMALLINT | Flag de pedido com retirada (0/1)  | `AddRetiradaNaLojaToSalesOrderGrid` |
