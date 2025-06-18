@@ -25,15 +25,19 @@ php bin/magento module:enable Espaker_RetiradaNaLoja
 php bin/magento setup:upgrade
 php bin/magento cache:clean
 php bin/magento cache:flush
+<<<<<<< HEAD
 ```
 
 
 ## 📊 Modelo Relacional
+=======
+>>>>>>> ef9c4d8542f9caab3319b52dce49c95f672d3e11
 
 ### Estrutura do Banco de Dados
 | Tabela             | Coluna Adicionada     | Tipo     | Descrição                          | Patch Responsável |
 |--------------------|-----------------------|----------|------------------------------------|------------------|
 | `sales_order_grid` | `retirada_na_loja`    | SMALLINT | Flag de pedido com retirada (0/1)  | `AddRetiradaNaLojaToSalesOrderGrid` |
+<<<<<<< HEAD
 
 ### Relacionamentos 
 <!-- Mermaid Support -->
@@ -43,3 +47,5 @@ flowchart LR
     sales_order -->|entity_id| sales_order_grid
     sales_order -.->|shipping_method='retiradaloja'| retirada_na_loja
 ```
+=======
+>>>>>>> ef9c4d8542f9caab3319b52dce49c95f672d3e11
